@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-myqr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0040-tenant/ci10t-786-0040-app/devfile-sample-myqr@sha256:dad7602fb05054aa950356c5e102f3df5601cfd46a7bac65227d85ad68ef3c5c
         name: my-nodejs
         ports:
         - containerPort: 3001
